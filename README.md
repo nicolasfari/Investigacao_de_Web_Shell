@@ -6,12 +6,10 @@ Investigação de um site WordPress comprometido. O objetivo foi analisar logs d
 ---
 
 ## Metodologia
-<img width="1908" height="891" alt="image" src="https://github.com/user-attachments/assets/26c17422-878c-4864-a99c-1d70a8d39879" />
 
 ### 1. Identificando o atacante nos logs
 
-Primeiro passo foi identificar qual IP estava gerando mais tráfego
-suspeito usando o comando:
+Primeiro passo foi identificar qual IP estava gerando mais tráfego suspeito usando o comando:
 
 ```bash
 cut -d' ' -f1 access.log | sort | uniq -c | sort -nr
