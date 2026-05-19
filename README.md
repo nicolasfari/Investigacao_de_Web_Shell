@@ -16,6 +16,7 @@ cut -d' ' -f1 access.log | sort | uniq -c | sort -nr
 ```
 
 **Resultado:**
+
 <img width="928" height="123" alt="image" src="https://github.com/user-attachments/assets/c2bc36e6-c58b-43ea-815f-235a3973b978" />
 
 O IP `203.0.113.66` com 99 requisições se destacou como suspeito, volume muito acima dos demais.
